@@ -28,6 +28,7 @@
 		8B91109316F76ACA00D0B716 /* TicTacToe 2.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TicTacToe 2.0"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91109616F76ACA00D0B716 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8B91109816F76ACA00D0B716 /* TicTacToe_2_0.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TicTacToe_2_0.1; sourceTree = "<group>"; };
+		8B93C61516FC64C800C4F393 /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				8B91109616F76ACA00D0B716 /* main.c */,
 				8B91109816F76ACA00D0B716 /* TicTacToe_2_0.1 */,
+				8B93C61516FC64C800C4F393 /* Map.h */,
 			);
 			path = "TicTacToe 2.0";
 			sourceTree = "<group>";
@@ -216,6 +218,7 @@
 				8B91109E16F76ACA00D0B716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,12 +7,23 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "Map.h"
 
-int main(int argc, const char * argv[])
-{
 
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+
+void startMap () {
+    for (int i=0; i < 9; i++) {
+        addFieldElement('-');
+    }
 }
 
+
+int main(int argc, const char * argv[]) {
+    startMap();
+
+    printMap();
+
+    return EXIT_SUCCESS;
+}
